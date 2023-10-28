@@ -2,6 +2,8 @@ export default function two_crystal_balls(breaks: boolean[]): number {
     // [ false, false, false, false, false, true, true, true, true, true, true]
     const jumpAmount = Math.floor(Math.sqrt(breaks.length));
 
+    // console.log(Math.sqrt(breaks.length));
+
     let i = jumpAmount;
 
     for (; i < breaks.length; i += jumpAmount) {
