@@ -12,7 +12,6 @@
             "runtimeExecutable": "yarn",
             "runtimeArgs": ["testDebug", "testnamegoeshere"],
             "cwd": "${workspaceRoot}",
-            "protocol": "inspector",
             "internalConsoleOptions": "openOnSessionStart"
         }
     ]
